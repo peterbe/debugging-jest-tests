@@ -3,7 +3,7 @@ import { describe, test, expect } from "@jest/globals";
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 describe("suite 1", () => {
   test("test 1", async () => {
-    await sleep(100);
+    await sleep(1000);
     expect(1).toBe(1);
   });
   test("test 2", async () => {
@@ -11,7 +11,7 @@ describe("suite 1", () => {
     expect(1).toBe(1);
   });
   test("test 3", async () => {
-    await sleep(100);
+    await sleep(1000);
     expect(1).toBe(1);
   });
   test("test 4", async () => {
@@ -19,7 +19,7 @@ describe("suite 1", () => {
     expect(1).toBe(1);
   });
   test("test 5", async () => {
-    await sleep(100);
+    await sleep(1000);
     expect(1).toBe(1);
   });
   test("test 6", async () => {
@@ -27,7 +27,7 @@ describe("suite 1", () => {
     expect(1).toBe(1);
   });
   test("test 7", async () => {
-    await sleep(100);
+    await sleep(1000);
     expect(1).toBe(1);
   });
   test("test 8", async () => {
