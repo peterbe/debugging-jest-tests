@@ -15,8 +15,6 @@ failOnConsole({
   shouldFailOnLog: failOnAllConsoleMessages,
 
   silenceMessage(message, methodName) {
-    console.log({ message, methodName });
-
     // silence messages related to JSDOM not implementing navigation
     if (
       methodName === "error" &&
