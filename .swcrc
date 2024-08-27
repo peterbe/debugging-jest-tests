@@ -1,0 +1,17 @@
+{
+  // .swcrc should be treated as JSONC
+
+
+  "jsc": {
+
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    }
+  }
+}
